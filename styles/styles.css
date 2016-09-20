@@ -4,8 +4,26 @@ body {
     line-height: 1.2;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #e0e0eb;
+}
+
+h2, h4 {
+    display: inline-block;
+}
+
+h4 {
+    float: right;
+    padding-right: 150px;
+}
+
 #registration {
-	margin-left: 150px;
+    margin-left: 150px;
 }
 
 #header {
@@ -19,42 +37,33 @@ body {
     border-color: #EEEEEE;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	color: #EEEEEE;
-}
-
 #jumbotron {
-	margin: 0 auto;
-	max-width: 1000px;
-	max-height: 750px;
+    margin: 0 auto;
+    max-width: 1000px;
+    max-height: 750px;
 }
 
 #container {
-	margin: 0 auto;
-	max-width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .categories {
-	align-self: center;
+    align-self: center;
 }
 
 .post {
-	margin-top: 10px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
-	width: 60%;
-	height: 100%;
-	padding: 10px;
-	word-wrap: break-word;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    word-wrap: break-word;
 }
 
 img {
-	width: 100%;
-	max-height: 500px;
+    width: 100%;
+    max-height: 500px;
 }
 
 
