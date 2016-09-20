@@ -14,12 +14,19 @@ a:hover {
 }
 
 h2, h4 {
+    font-weight: 50;
+    color: gray;
     display: inline-block;
 }
 
 h4 {
+    color: gray;
     float: right;
     padding-right: 150px;
+}
+
+span {
+    color: green;
 }
 
 #registration {
